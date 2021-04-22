@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dynamicyield</groupId>
+  <artifactId>DYAPISDK</artifactId>
+  <version>3.0.5</version>
+  <packaging>aar</packaging>
+  <name>DYApi</name>
+  <description>DynamicYield SDK personalize and optimize your app for a better conversion and engagement</description>
+  <url>https://github.com/DynamicYield/DYAndroidSDK</url>
+  <licenses>
+    <license>
+      <name>Commercial</name>
+      <url>www.dynamicyield.com/SDK-license</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>idan-cdy</id>
+      <name>Idan Costa</name>
+      <email>dy.mobile@dynamicyield.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>https://github.com/DynamicYield/DYAndroidSDK.git</connection>
+    <developerConnection>https://github.com/DynamicYield/DYAndroidSDK.git</developerConnection>
+    <url>https://github.com/DynamicYield/DYAndroidSDK</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>Mobile-Android</groupId>
+      <artifactId>MozillaRhino</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.firebase</groupId>
+      <artifactId>firebase-messaging</artifactId>
+      <version>9.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
