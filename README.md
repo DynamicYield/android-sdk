@@ -1,1 +1,1 @@
-# dy-android-sdk
+Dynamic Yield Android SDK
